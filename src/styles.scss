@@ -1,0 +1,75 @@
+#footer-container {
+    $background-color: #0046be;
+    $font-color: rgb(4, 87, 200);
+    font-family: "arial", sans-serif;
+    background-color: rgb(244, 246, 249);
+    #footer-signup-container {
+        position: relative;
+        padding: 10px;
+        background-color: $background-color;
+    }
+
+    #signup-ad{
+        color: #fff200;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #signup-app-logo{
+        height: 30px;
+    }
+    #signup-button-col{
+        border-right: 1px solid #B9BFCB;
+    }
+    #signup-button{
+        color: black;
+        width: 110px;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: #ffe000;
+    }
+    #signup-primary{
+        color: #fff200;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #signup-secondary{
+        color: white;
+        margin-left: 40px;
+        margin-top: -30px;
+    }
+    #footer-links-container, #footer-bottom-container{
+        background-color: rgb(244, 246, 249);
+    }
+    #footer-links-container{
+        border-bottom: 1px solid rgb(197, 203, 213);
+    }
+
+    .link {
+        color: $font-color;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .link.head{
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+
+    #footer-bottom-container {
+        .link {
+            font-size: 11px;
+            border-right: 1px solid rgb(0,70,190);
+        }
+        .link.end {
+            border-right: 0;
+        }
+    }
+
+    @media (min-width: 1600px) {
+        #footer-signup-content, #footer-links-content, #footer-bottom-content {
+                width: 1600px;
+                margin: auto;
+            }
+    }
+}
+
