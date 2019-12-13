@@ -14,7 +14,11 @@ function FooterBottom(props) {
                 {getLink('Accessibility', 'Content')}
                 {getLink('Privacy', 'Content', true)}
             </div>
-
+            <div className="row text-center mt-4">
+                <div className="col" id="disclaimer">
+                    This website was built for a class project, see project @ https://github.com/HRATX-45-FEC-West-Buy
+                </div>
+            </div>
         </div>
     );
 }
