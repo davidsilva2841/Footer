@@ -7,8 +7,8 @@ function FooterSignup(props) {
     return (
         <div  id="footer-signup-container">
             <div className="row" id="footer-signup-content">
-                <div className="col-5">
-                    <div id="signup-ad" className="m-2">Get the latest deals and more.</div>
+                <div className="col-5 p-0">
+                    <div id="signup-ad" className="">Get the latest deals and more.</div>
                 </div>
                 <div className="col-3">
                     <Form.Control

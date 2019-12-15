@@ -6,7 +6,7 @@ const getLink = (title, href, end=false) => {
 };
 function FooterBottom(props) {
     return (
-        <div className="p-2 pb-4" id="footer-bottom-container">
+        <div className="pb-4" id="footer-bottom-container">
             <div className="row text-center" id="footer-bottom-content">
                 {getLink('Corporate Info', 'Content')}
                 {getLink('Forums, Blog & More', 'Content')}
